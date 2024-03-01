@@ -136,7 +136,7 @@ img {
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
-@media screen and (min-Width: 327px) {
+@media screen and (min-Width: 380px) {
     main {
         flex-flow: row;
         margin: 20rem auto 0;
