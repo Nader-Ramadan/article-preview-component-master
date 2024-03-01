@@ -15,7 +15,9 @@
   </head>
   <body>
     <main>
-      <div class="photo"></div>
+      <div class="photo">
+        <img src="./images/drawers.jpg" alt="drawers" />
+      </div>
       <div class="content">
         <p class="first">
           Shift the overall look and feel by adding these wonderful touches to
@@ -27,26 +29,14 @@
           you make any room feel complete.
         </p>
         <div class="user">
-          <div class="user-photo"></div>
+          <div class="user-photo">
+            <img src="./images/avatar-michelle.jpg" alt="michelle" />
+          </div>
           <div class="info">
             <p class="name">Michelle Appleton</p>
             <p class="date">28 Jun 2020</p>
           </div>
-          <div class="share" onclick="show()" ondblclick="hide()">
-            <div id="tape" class="share-tape">
-              <p>Share</p>
-              <img src="./images/icon-facebook.svg" alt="facebook" />
-              <img src="./images/icon-twitter.svg" alt="twitter" />
-              <img src="./images/icon-pinterest.svg" alt="pinterest" />
-              <div onclick="hide()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
-                  <path
-                    fill=""
-                    d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
-                  />
-                </svg>
-              </div>
-            </div>
+          <div class="share" onclick="share()">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
               <path
                 fill=""
@@ -54,6 +44,13 @@
               />
             </svg>
           </div>
+          <div id="tape" class="share-tape">
+              <p>share</p>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+              <img src="./images/icon-twitter.svg" alt="twitter" />
+              <img src="./images/icon-pinterest.svg" alt="pinterest" />
+            </div>
+        </div>
         </div>
       </div>
     </main>
